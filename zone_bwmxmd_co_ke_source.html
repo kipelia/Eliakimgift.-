@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ef4444" />
+    <link rel="icon" href="https://url.eliakimxmd.online/Adams.botkcfni.png" type="image/png" />
+    <link rel="apple-touch-icon" href="https://url.eliakimxmd.online/Eliakim.botkcfni.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>BWMGIFT Stream - Watch Movies & TV Series Online</title>
+    <meta name="description" content="Stream unlimited movies and TV series online. Watch the latest releases and trending content on EGIFT Stream - Your premium streaming platform." />
+    <meta name="author" content="Eliakim Tech & Eliakim" />
+    <meta name="keywords" content="movies, tv series, streaming, watch online, ELIAKIMGIFT, entertainment" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ELIAKIMGIFT" />
+
+    <meta property="og:title" content="ELIAKIMGIFT Stream - Watch Movies & TV Series Online" />
+    <meta property="og:description" content="Stream unlimited movies and TV series online. Watch the latest releases and trending content on BWMGIFT Stream." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://url.eliakimxmd.online/Adams.vll8bbzm.jpg" />
+    <meta property="og:url" content="https://eliakimxmd.co.ke" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@eliakimtech" />
+    <meta name="twitter:title" content="ELIAKIMGIFT Stream - Watch Movies & TV Series Online" />
+    <meta name="twitter:description" content="Stream unlimited movies and TV series online. Your premium streaming platform." />
+    <meta name="twitter:image" content="https://url.bwmxmd.online/Adams.vll8bbzm.jpg" />
+    <script type="module" crossorigin src="/assets/index-DBWhD1A3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cks2LTnY.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+  <body>
+    <div id="root"></div>
+    <style>
+      /* PWA loading screen */
+      #pwa-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: hsl(220 13% 9%);
+        animation: fadeOut 0.3s ease-out 0.5s forwards;
+      }
+      
+      .loader-container {
+        position: relative;
+        width: 120px;
+        height: 120px;
+      }
+      
+      .circle {
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid transparent;
+      }
+      
+      .circle-1 {
+        width: 120px;
+        height: 120px;
+        border-top-color: #ef4444;
+        border-right-color: #ef4444;
+        animation: spin 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      }
+      
+      .circle-2 {
+        width: 90px;
+        height: 90px;
+        top: 15px;
+        left: 15px;
+        border-bottom-color: #dc2626;
+        border-left-color: #dc2626;
+        animation: spin 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite reverse;
+      }
+      
+      .circle-3 {
+        width: 60px;
+        height: 60px;
+        top: 30px;
+        left: 30px;
+        border-top-color: #b91c1c;
+        border-right-color: #b91c1c;
+        animation: spin 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      }
+      
+      .center-dot {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50px;
+        left: 50px;
+        background: radial-gradient(circle, #ef4444 0%, #dc2626 50%, #b91c1c 100%);
+        border-radius: 50%;
+        animation: pulse 1.5s ease-in-out infinite;
+        box-shadow: 0 0 30px rgba(239, 68, 68, 0.8),
+                    0 0 60px rgba(239, 68, 68, 0.4);
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.3);
+          opacity: 0.7;
+        }
+      }
+      
+      @keyframes fadeOut {
+        to { opacity: 0; visibility: hidden; }
+      }
+    </style>
+    <div id="pwa-loader">
+      <div class="loader-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="center-dot"></div>
+      </div>
+    </div>
+  </body>
+</html>
